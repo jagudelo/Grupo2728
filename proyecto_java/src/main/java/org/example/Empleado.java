@@ -8,10 +8,10 @@ public class Empleado {
     private String Rol_Empleado;
 
     public Empleado(String nombre_Empleado, String correo_Empleado, String empresa_Empleado, String rol_Empleado) {
-        Nombre_Empleado = nombre_Empleado;
-        Correo_Empleado = correo_Empleado;
-        Empresa_Empleado = empresa_Empleado;
-        Rol_Empleado = rol_Empleado;
+        this.Nombre_Empleado = nombre_Empleado;
+        this.Correo_Empleado = correo_Empleado;
+        this.Empresa_Empleado = empresa_Empleado;
+        this.Rol_Empleado = rol_Empleado;
     }
 
     public String getNombre_Empleado() {
