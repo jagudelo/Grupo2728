@@ -8,10 +8,10 @@ public class Empresa {
     private String Nit_Empresa;
 
     public Empresa(String nombre_Empresa, String direccion_Empresa, String telefono_Empresa, String nit_Empresa) {
-        Nombre_Empresa = nombre_Empresa;
-        Direccion_Empresa = direccion_Empresa;
-        Telefono_Empresa = telefono_Empresa;
-        Nit_Empresa = nit_Empresa;
+        this.Nombre_Empresa = nombre_Empresa;
+        this.Direccion_Empresa = direccion_Empresa;
+        this.Telefono_Empresa = telefono_Empresa;
+        this.Nit_Empresa = nit_Empresa;
     }
 
     public String getNombre_Empresa() {
