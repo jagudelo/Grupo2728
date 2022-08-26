@@ -45,4 +45,7 @@ public class Empleado {
     public void setRol_Empleado(String rol_Empleado) {
         Rol_Empleado = rol_Empleado;
     }
+
+    /* Comentario */
+    
 }
